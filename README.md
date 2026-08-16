@@ -121,7 +121,7 @@ python main.py
 
 ### Browser-Extension
 
-open chrome, go to Extension, then load unpacked, choose your extension file
+open chrome, go to Extension, then load unpacked, choose your extension file(browser-extension)
 
 ###  Front‑end (dashboard)
 
