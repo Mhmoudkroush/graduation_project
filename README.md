@@ -19,27 +19,11 @@ url_classification_system/
 │   │   ├── CNN/                # Character-level CNN
 │   │   └── LSTM/                # Bidirectional LSTM (production) + trainers
 │   └── User_interface/
-│       ├── back-end code/      # Flask REST API for real-time inference
-│       └── front-end code/     # Browser Extension + Dashboard using "React + Bootstrap"
+│       ├── back_end/      # Flask REST API for real-time inference
+│       └── front_end/     # Browser Extension + Dashboard using "React + Bootstrap"
 └── requirements.txt             # Core Python deps
 ```
-
-## Repository Layout
-
-url\_classification\_system/
-├── Dataset/                          # Final balanced dataset (CSV) & feature matrices
-├── src/
-│   ├── Feature\_engineering/       # URL, domain & content feature extraction + selection
-│   ├── Models\_and\_evaluations/
-│   │   ├── Machine\_Learning/      # Tree, RF, SVM, XGBoost,LightGBM
-│   │   ├── CNN/                   # Character‑level CNN
-│   │   └── LSTM/                  # Bidirectional LSTM (production) + trainers
-│   └── User\_interface/
-│       ├── back-end code/         # Flask REST API for real‑time inference
-│       └── front-end code/        # Browser Extension + Dashboard using "React + Bootstrap"
-├── requirements.txt               # Core Python deps
-
-## Data Pipeline
+ Pipeline
 
 | Stage | Source / Method | Key Points |
 |-------|-----------------|------------|
