@@ -9,6 +9,23 @@ This project builds a **feature‑driven, model‑based** alternative that learn
 
 ## Repository Layout
 
+```
+url_classification_system/
+├── Dataset/                    # Final balanced dataset (CSV) & feature matrices
+├── src/
+│   ├── Feature_engineering/    # URL, domain & content feature extraction + selection
+│   ├── Models_and_evaluations/
+│   │   ├── Machine_Learning/   # Tree, RF, SVM, XGBoost, LightGBM
+│   │   ├── CNN/                # Character-level CNN
+│   │   └── LSTM/                # Bidirectional LSTM (production) + trainers
+│   └── User_interface/
+│       ├── back-end code/      # Flask REST API for real-time inference
+│       └── front-end code/     # Browser Extension + Dashboard using "React + Bootstrap"
+└── requirements.txt             # Core Python deps
+```
+
+## Repository Layout
+
 url\_classification\_system/
 ├── Dataset/                          # Final balanced dataset (CSV) & feature matrices
 ├── src/
