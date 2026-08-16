@@ -134,15 +134,6 @@ npm start
 ## 📡 API Reference
 
 Base URL: `http://localhost:5000`
-
-### `POST /api/predict`
-Analyze a URL and return a threat classification.
-
-**Request Body**
-```json
-{
-  "url": "http://example-login-secure.xyz/verify?id=1234"
-}
 ```
 
 ## 8. Reproducibility Checklist ✅
