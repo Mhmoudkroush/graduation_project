@@ -170,10 +170,4 @@ Follow the **Google Python style guide** and run `pre-commit run --all-files` be
 
 ---
 
-## 11. License
-
-[MIT](LICENSE) – free for commercial & research use, with attribution.
-
----
-
 *Happy phishing‑hunting! 🕵️‍♂️*
