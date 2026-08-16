@@ -89,7 +89,6 @@ python src/Feature_engineering/feature_selection.py           # reduced feature 
 | pandas | ~2.2.3 | Data processing |
 | numpy | ~2.2.4 | Numerical operations |
 | scikit-learn | ~1.6.1 | ML models (RF, SVM, DT, LR) |
-| joblib | ~1.4.2 | Model serialization |
 | tldextract | ~5.1.3 | TLD / subdomain parsing |
 | urllib3 | ~2.3.0 | URL utilities |
 | requests | ~2.32.3 | HTTP client for crawling |
@@ -165,7 +164,7 @@ Analyze a URL and return a threat classification.
 ## 8. Reproducibility Checklist ✅
 
 * **Deterministic splits** – `random_state=42` everywhere
-* **Environment lockfile** – see `requirements.txt` & `package-lock.json`
+* **Environment lockfile** – see `requirements.txt`
 * **Seed logging** – trainers emit seeds to `training.log`
 * **Model checkpointing** – best‐by‑F1 per fold, plus final ensemble weight
 
