@@ -163,11 +163,4 @@ Analyze a URL and return a threat classification.
 
 ---
 
-## 10. Contributing
-
-Pull requests are welcome! Please first open an issue describing the change.
-Follow the **Google Python style guide** and run `pre-commit run --all-files` before pushing.
-
----
-
 *Happy phishing‑hunting! 🕵️‍♂️*
